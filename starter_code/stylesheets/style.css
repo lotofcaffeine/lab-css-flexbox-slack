@@ -5,3 +5,71 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+nav{
+	display: flex; 
+	justify-content: space-between;
+	border-bottom: 1px solid #EBEBEB;
+
+}
+nav img{
+	width: 30%;
+
+
+}
+nav ul{
+	display: none;
+}
+.hamburger{
+	top: 20px;
+	position: relative;
+}
+
+.hamburger span{
+	width: 20px;
+	border: 2px solid #E0DFE2;
+	margin: 2px;
+	display: block;
+
+}
+main{
+   position: relative;
+   margin: 10px auto;
+}
+header{
+	padding: 0 30px;
+}
+header img{
+	width: 30%;
+
+}
+header input{
+	border: 1px solid #E0DFE2;
+	height: 50px;
+	width: 100%;
+	margin: 10px auto;
+	border-radius: 6px;
+	box-sizing: border-box;
+	padding-left: 20px;
+}
+header button{
+	height: 50px;
+	background-color: #4049A9;
+	margin: 10px auto;
+	width: 100%;
+	border-radius: 6px;
+	text-align: center;
+	color: white;
+
+}
+header h1{
+   width: 200px;
+
+}
+header img{
+	width: 100%;
+}
+main div{
+	background-color: #F5F5F5;
+	padding: 10px 10px;
+}
